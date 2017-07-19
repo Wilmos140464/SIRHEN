@@ -1,0 +1,9 @@
+instance_source=db2irhen
+instance_cible=db2irhen
+#JCH base_source=IRHENWKS
+base_source=IRHEN
+base_cible=IRHEN
+rep_rest=/db2backup/$instance_cible/$base_cible
+rep_base=/db2data/$instance_cible/$base_cible
+rep_log=/db2log/db2itr18/SNAPSIRH/logrest
+rep_logarch=/db2log/db2itr18/SNAPSIRH/logarchmeth1

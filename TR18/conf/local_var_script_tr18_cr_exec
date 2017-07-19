@@ -1,0 +1,6 @@
+horodatage=$(date +%Y%m%d%H%M%S)
+mail_dest=sirhen-itp@education.gouv.fr
+rep_sql=/mnt/itpadmin/shell_commun/db2/tr18
+#rep_sql=/mnt/applis_mid_ru3/shell_commun/db2/tr18
+base_oditr18=ODITR18
+schema_oditr18=TOWTR18

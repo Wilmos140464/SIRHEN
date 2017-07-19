@@ -1,0 +1,19 @@
+## Declaration de variables globales statique a adapter a chaque environnement
+env=ru3
+exist_snapsirh=true
+exist_irhenwks=true
+exec_scen_CDM_INFOAGT_REFE=true
+exec_scen_LDAP=true
+exec_scen_AAF=true 
+exec_scen_GDA=false
+## Declaration des variables globales dynamiques
+ENV=$( echo ${env} | tr [a-z] [A-Z] )
+rep_drapeau_ordo=/mnt/applis_mid_$env/TR18/ordonnanceur
+rep_drapeau_ordo_echange=/mnt/applis_mid_$env/ECHANGE/ordonnanceur
+rep_tr18_nfs=/mnt/applis_mid_$env/TR18/$ENV
+rep_bkp_sirhen=/mnt/backup/GENERE_SUR_RU3
+rep_bkp_irhenwks=/mnt/applis_mid_$env/SIRHEN/pour_TR18
+#rep_bkp_irhen=/mnt/nfssirhen/SIRHEN/pour_TR18/$ENV
+umask 0002
+rep_irhen_nfs=/mnt/applis_mid_$env/TR18/$ENV/irhen
+mnt_irhen=/mnt/applis_mid_$env

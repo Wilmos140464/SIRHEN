@@ -1,0 +1,4 @@
+mail_dest=ietf-ces-sirhen@ac-versailles.fr,centre_services_ces_sirhen@ac-versailles.fr
+rep_sql=/mnt/applis_mid_$env/shell_commun/db2/tr18
+base=REFODII
+schema=TODIWORK
