@@ -1,0 +1,9 @@
+rep_rest=/db2backup/db2isirh/SIRHEN
+rep_base=/db2data/db2isirh/SIRHEN
+rep_log=/db2log/db2isirh/SIRHEN/logrest
+rep_logarch=/db2log/db2isirh/SIRHEN/logarchmeth1
+instance_source=db2isirh
+instance_cible=db2isirh
+base_source=SIRHEN
+base_cible=SIRHEN
+
