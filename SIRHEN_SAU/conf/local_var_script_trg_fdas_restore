@@ -1,9 +1,0 @@
-rep_rest=/db2backup/db2itr18/TRG_FDAS
-rep_base=/db2data/db2itr18/TRG_FDAS
-rep_log=/db2log/db2itr18/TRG_FDAS/logrest
-rep_logarch=/db2log/db2itr18/TRG_FDAS/logarchmeth1
-instance_source=db2itr18
-instance_cible=db2itr18
-base_source=TRG_FDAS
-base_cible=TRG_FDAS
-

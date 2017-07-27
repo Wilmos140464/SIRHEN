@@ -1,9 +1,0 @@
-rep_rest=/db2backup/db2itr18/TR18
-rep_base=/db2data/db2itr18/TR18
-rep_log=/db2log/db2itr18/TR18/logrest
-rep_logarch=/db2log/db2itr18/TR18/logarchmeth1
-instance_source=db2itr18
-instance_cible=db2itr18
-base_source=TR18
-base_cible=TR18
-
